@@ -1,0 +1,168 @@
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+
+
+}
+
+
+.register-form {
+    padding: 30px;
+    width: 40vw;
+    /* height: 100vh; */
+
+
+}
+
+.form {
+    border: 2px solid gray;
+
+
+
+}
+
+.reg-info {
+    /* heig ht: 100vh !important; */
+    padding-left: 30px;
+
+    /* padding: 20px; */
+    width: 60vw;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    /* display: grid;
+    place-items: center; */
+
+
+
+}
+
+
+
+.auth-heading {
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    margin-bottom: 30px;
+
+    margin: 50px auto;
+
+    border-radius: 10px 10px 149px 146px;
+    -webkit-border-radius: 10px 10px 149px 146px;
+    -moz-border-radius: 10px 10px 149px 146px;
+    border: 27px groove #5750ff;
+}
+
+
+
+.info h1 {
+    height: 200px;
+    width: 37vw;
+
+}
+
+.form-item {
+    text-align: center;
+    font-size: 4rem;
+}
+
+
+.reg {
+    font-size: 2rem;
+}
+
+
+
+
+
+.auth-heading1 {
+    height: 150px;
+    /* -webkit-text-stroke: 1px #000;
+    color: transparent; */
+    font-size: 1.8rem;
+
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 157px 174px 77px 71px;
+    -webkit-border-radius: 157px 174px 77px 71px;
+    -moz-border-radius: 157px 174px 77px 71px;
+    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    border: 21px inset #4b2f4b;
+}
+
+@media(max-width:400px) {
+    .form-container {
+        display: block;
+        width: 90vw;
+
+        border: none;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+
+
+    }
+
+    .register-form {
+
+        padding: 30px;
+        width: 80vw;
+
+
+
+    }
+
+    .reg-info {
+
+        transform: translateY(-150px);
+        width: 80vw;
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+
+
+
+
+    }
+    .info {
+        /* display: none; */
+        visibility: hidden;
+       
+    
+      
+    }
+    .img-box{
+       display: none;
+    }
+    .reg-info {
+        /* height: 0; */
+        height: 1vh;
+        padding-left: 30px;
+    
+        
+      
+    
+       
+    
+    
+    
+    }
+    
+
+}

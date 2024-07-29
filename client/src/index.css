@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  background-color: rgb(220, 217, 217) !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.spinner {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  background-color: rgb(134, 125, 125);
+
+}
+
+.form-btn {
+  width: 250px !important;
+  margin-top: 30px !important;
+}
+
+
+.heading {
+  margin: 20px auto;
+  height: fit-content;
+  width: fit-content;
+  padding: 15px;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  border: 31px ridge #5088ff;
+}
+
+
+
+
+
+.ant-table-content {
+  background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+
+  width: 90vw;
+  margin: 0 auto;
+
+
+}
+
+.ant-table-row {
+  font-size: 1.6rem;
+}
+
+.ant-table thead.ant-table-thead .ant-table-cell {
+  /* background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%); */
+  background-color: rgb(150, 133, 133);
+  font-size: 2rem;
+
+}
+
+
+
+
+/* .login-input{
+  background-color: rgb(166, 166, 158);
+  color: white;
+}
+.login-input::placeholder{
+  color: white;
+} */
+.email {
+  font-size: 30px;
+}
+
+
+
+
+.profile {
+  width: 90vw;
+  margin: 0 auto;
+  background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+  padding: 30px;
+}
+
+
+
+
+@media(max-width:400px) {
+  
+  .ant-table-content {
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+
+    width: 95vw;
+    margin: 0 auto;
+
+
+  }
+
+  .ant-table-row {
+    font-size: 0.7rem;
+  }
+
+  .ant-table thead.ant-table-thead .ant-table-cell {
+    /* background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%); */
+    background-color: rgb(150, 133, 133);
+    font-size: 1rem;
+    width: 95vw;
+
+  }
+  .appointments-table{
+    overflow-y: auto !important;
+  }
+
+
+
+}
+
+/* .buton{
+ 
+  font-size: 5px;
+} */
+
+.user-table{
+  overflow-x: hidden;
+}

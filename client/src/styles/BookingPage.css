@@ -1,0 +1,61 @@
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container-booking{
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+    width: 90vw;
+  
+    margin-left: auto;
+    margin-right: auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.drname{
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    border: 2px solid #554f4f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fad0c4;
+    border-radius: 10px;
+
+}
+
+.fess-timing{
+    height: 100px;
+    width: 300px;
+    border: 2px solid rgb(61, 55, 55);
+    display: grid;
+    place-items: center;
+    background-color: #fad0c4;
+    border-radius: 15px;
+
+}
+
+.datepicker{
+    /* background-color: aqua; */
+    height: 40px;
+    display: grid;
+    place-items: center;
+    width: 250px;
+    margin-top: 20px;
+    color: black;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+
+.buton{
+    transform: translateX(60px);
+    width: 200px;
+    
+ 
+}
+
