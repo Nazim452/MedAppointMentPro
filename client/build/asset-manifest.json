@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.31eef009.css",
+    "main.js": "/static/js/main.8a760908.js",
+    "static/js/787.d5fa4d18.chunk.js": "/static/js/787.d5fa4d18.chunk.js",
+    "static/media/d3.jpg": "/static/media/d3.34b449a89e500415dd40.jpg",
+    "static/media/d1.jpg": "/static/media/d1.bc5a5dbfee18847707d3.jpg",
+    "static/media/DoctorLogo.png": "/static/media/DoctorLogo.03d2c1f4175311c4ee0d.png",
+    "static/media/d2.jpg": "/static/media/d2.1b4517cb7f8284c2d1a4.jpg",
+    "static/media/d4.jpg": "/static/media/d4.9d8acec0238733e6152e.jpg",
+    "index.html": "/index.html",
+    "main.31eef009.css.map": "/static/css/main.31eef009.css.map",
+    "main.8a760908.js.map": "/static/js/main.8a760908.js.map",
+    "787.d5fa4d18.chunk.js.map": "/static/js/787.d5fa4d18.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31eef009.css",
+    "static/js/main.8a760908.js"
+  ]
+}
